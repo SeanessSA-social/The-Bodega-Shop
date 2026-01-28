@@ -74,7 +74,7 @@ MonoBehaviour:
     tellus pharetra rutrum vitae eget mi. Curabitur mattis libero eu facilisis fermentum.
     Sed at augue dapibus, auctor diam id, euismod nisl. Sed nec nibh lorem.
 
-    
+
 
     Integer
     pharetra fringilla eros, quis tincidunt ligula. Suspendisse vel suscipit quam,
@@ -84,7 +84,7 @@ MonoBehaviour:
     pulvinar ut nec ligula. Mauris elementum, purus sagittis vestibulum facilisis,
     mi justo lacinia metus, vel commodo nunc sapien ut arcu. Etiam sed varius lorem.
 
-    
+
 
     In
     auctor, velit ut sollicitudin consequat, tortor neque maximus enim, sit amet
@@ -95,27 +95,27 @@ MonoBehaviour:
     ipsum, eget bibendum libero. Aenean lectus purus, varius et ante at, condimentum
     molestie felis.
 
-    
 
-    Praesent interdum ornare porttitor. Duis cursus
-    consectetur ultricies. Etiam eget velit ligula. Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Sed gravida libero eu feugiat lobortis. Fusce scelerisque felis
-    sit amet diam consectetur dapibus. Curabitur bibendum a ligula vitae interdum.
-    Phasellus libero erat, consequat eget tellus a, egestas ultricies velit. Ut sed
-    arcu finibus lorem eleifend interdum eu eu metus. Nam euismod sollicitudin nisi
-    eu aliquet. Vestibulum non elit a mi varius maximus. Proin ac rutrum felis. Curabitur
-    ultrices sem ut odio finibus, id egestas tellus ultricies. Nulla congue bibendum
-    ullamcorper. Donec at imperdiet augue.
 
-    
+    Praesent interdum ornare porttitor. Duis cursus consectetur
+    ultricies. Etiam eget velit ligula. Lorem ipsum dolor sit amet, consectetur adipiscing
+    elit. Sed gravida libero eu feugiat lobortis. Fusce scelerisque felis sit amet
+    diam consectetur dapibus. Curabitur bibendum a ligula vitae interdum. Phasellus
+    libero erat, consequat eget tellus a, egestas ultricies velit. Ut sed arcu finibus
+    lorem eleifend interdum eu eu metus. Nam euismod sollicitudin nisi eu aliquet.
+    Vestibulum non elit a mi varius maximus. Proin ac rutrum felis. Curabitur ultrices
+    sem ut odio finibus, id egestas tellus ultricies. Nulla congue bibendum ullamcorper.
+    Donec at imperdiet augue.
 
-    Sed et augue mauris. Quisque
-    malesuada metus lorem, ac efficitur tortor finibus semper. Pellentesque ac tortor
-    in mi placerat congue et nec ex. Morbi tempus arcu risus, non gravida turpis
-    egestas ac. Nam non ante eu est facilisis suscipit. Vivamus rhoncus euismod risus,
-    id interdum neque. Morbi tempor finibus ultrices. Vestibulum ante ipsum primis
-    in faucibus orci luctus et ultrices posuere cubilia curae; Proin feugiat ligula
-    risus, in suscipit nulla pellentesque in. Praesent vitae turpis urna. '
+
+
+    Sed et augue mauris. Quisque malesuada metus
+    lorem, ac efficitur tortor finibus semper. Pellentesque ac tortor in mi placerat
+    congue et nec ex. Morbi tempus arcu risus, non gravida turpis egestas ac. Nam
+    non ante eu est facilisis suscipit. Vivamus rhoncus euismod risus, id interdum
+    neque. Morbi tempor finibus ultrices. Vestibulum ante ipsum primis in faucibus
+    orci luctus et ultrices posuere cubilia curae; Proin feugiat ligula risus, in
+    suscipit nulla pellentesque in. Praesent vitae turpis urna. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -302,6 +302,8 @@ GameObject:
   - component: {fileID: 9139118963047758483}
   - component: {fileID: 608263524870027718}
   - component: {fileID: 6510326177160302864}
+  - component: {fileID: 2131130676223110309}
+  - component: {fileID: 3224095548219724196}
   m_Layer: 5
   m_Name: Newspaper Panel
   m_TagString: Untagged
@@ -367,6 +369,45 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2131130676223110309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784903279838421493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"IsOpen","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ShownBottom","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HiddenBottom","value":{"$content":-1080.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Duration","value":{"$content":0.25,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Elapsed","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"StartBottom","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TargetBottom","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsAnimating","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &3224095548219724196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784903279838421493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 4e200576c35da7c4e9b1189a45e71474, type: 2}
 --- !u!1 &6592690123875693640
 GameObject:
   m_ObjectHideFlags: 0
