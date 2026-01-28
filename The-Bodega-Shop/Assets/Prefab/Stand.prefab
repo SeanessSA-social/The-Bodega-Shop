@@ -203,7 +203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Day
-      Started","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      Started","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Appeal1","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Appeal2","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Appeal3","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -236,6 +236,8 @@ MonoBehaviour:
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AppleA","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"BananaA","value":{"$content":6.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WatermelonA","value":{"$content":7.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RentBar","value":{"$content":17,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Rent","value":{"$content":400.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1905030848263390897}
@@ -255,6 +257,7 @@ MonoBehaviour:
     - {fileID: 8647051791738968074}
     - {fileID: 9106996308988110420}
     - {fileID: 5749700767385346200}
+    - {fileID: 936031690621367260}
 --- !u!114 &1243696082783812193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,7 +286,7 @@ GameObject:
   - component: {fileID: 19958554399877160}
   - component: {fileID: 936031690621367260}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: GreenFillBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -341,7 +344,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.882
+  m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -904,7 +907,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Rent: $800'
+  m_Text: 'Rent: $400'
 --- !u!1 &4285166538756055756
 GameObject:
   m_ObjectHideFlags: 0
